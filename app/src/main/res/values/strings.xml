@@ -3,6 +3,11 @@
 
     <string name="app_name">MoocAndroid</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string><string name="msgPrompt">Comment vous appelez-vous ?</string><string name="msgBtn">Envoyer</string>
+    <string name="action_settings">Settings</string>
+    <string name="msgPrompt">Comment vous appelez-vous ?</string>
+    <string name="msgBtn">Envoyer</string>
+    <string name="welcomeMsg">Bonjour %1$s</string>
+    <string name="promptText">Saisissez votre message : </string>
+
 
 </resources>

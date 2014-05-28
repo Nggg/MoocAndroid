@@ -9,11 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.TextView;
-
-import java.lang.reflect.Array;
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.List;
 
 public class MainActivity extends Activity {
 
@@ -56,9 +53,9 @@ public class MainActivity extends Activity {
         if(userName == null ){
            userName = text;
            TextView welcomeText = (TextView) findViewById(R.id.welcomeText);
-           welcomeText.setText("Bonjour " + userName);
+           welcomeText.setText( String.format(getResources().getString(R.string.welcomeMsg), userName));
            TextView promptText = (TextView) findViewById(R.id.promptTextId);
-           promptText.setText("Saisissez votre message : ");
+           promptText.setText(getResources().getString(R.string.promptText));
 
         }else{
 
